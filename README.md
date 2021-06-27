@@ -13,7 +13,7 @@ Project is created with:
 * HTML
 
 ## Screenshot
-![portfoliopage](/assets/images/preview.png?raw=true "LuisPortfolioPage")
+![portfoliopage](/assets/images/website-preview.png?raw=true "LuisPortfolioPage")
 
 ## Webpagelink
 https://lretana1.github.io/LuisPortfolioPage/
