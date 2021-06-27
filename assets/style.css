@@ -51,17 +51,23 @@ figure img{
 }
 .flex-container .reg-project{
     font-size: 30px;
-    margin: 10;
-    padding:30px;
-    border: 5px solid;
+    padding:300px;
+    border: 5px, solid,black;
     border-radius:  50px; 
-    height: 600px;
-    width: 700px;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    
 }
 #main-project{
-    display: block;
+    font-size: 30px;
     background-image: url(../assets/images/horiseon.png);
     background-size: cover;
+    padding: 300px;
+    text-align: center;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #two{
     background-image:url(../assets/images/surf.jpg);
