@@ -5,12 +5,10 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: darkgoldenrod;
+    background-color: ;
 }
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aqua;
-    background-color: brown;
     text-align: center;
 }
 body nav ul li  { 
@@ -26,6 +24,9 @@ ul{
     margin: 100px;
     text-decoration: none;
     font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 button{
@@ -34,11 +35,11 @@ button{
 }
 
 figure img{
-    height: auto;
-    width: 150px;
-    float:left
+    height: 400px; ;
+    float:left;
+    padding: 5px 20px 15px 15px
     
-    }
+}
 #para2{
     color: brown;
     margin: 10px;
@@ -48,6 +49,11 @@ figure img{
     display: flex;
     background-color: coral;
     flex-direction: column;
+    font-size: 30px;
+    margin: 10;
+    padding:30px;
+    border: 5px solid;
+    border-style: dotted;
 }
 .about-me{
     font-size: 20px;
@@ -64,13 +70,15 @@ figure img{
     
 main{
     border-color: cornflowerblue;
+    height: 405px;
+    padding: 5px;
 }
 
 .contact-me div{
     display: inline;
-    font-size: 100px;
-    text-align: center;
-    
+    font-size: 20px;
+    margin-left: 200px;
+    font-weight: bold;
 }
 main{
     border: darkgreen;
@@ -83,11 +91,18 @@ main{
     margin: 10px 0px;
 }
 .nav-button{
-    margin-right: 150px;
+    padding:0px 75px;
 
 }
-nav{
-    background-image: ;
+
+.hero{
+    background-image: url(../assets/images/Hero.jpg);
+    background-size: cover;
+    background-repeat: none;
+    padding-bottom: 550px;
+}
+.contact-pieces{
+    text-align: ;
 }
 
 
