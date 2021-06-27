@@ -5,11 +5,12 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color:rgb(115, 115, 175) ;
+    background-color:black ;
 }
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    color: white;
 }
 body nav ul li  { 
     font-size: 50px;
@@ -57,17 +58,31 @@ figure img{
     height: 300px;
     width: 50%;
     text-align: center;
-    
-}
+    }
+.reg-project a{
+    background-color: white;
+    border:black;
+    border-style: solid;
+    text-decoration: none;
+    font-size: 50px;
+    }
 #main-project{
     font-size: 30px;
     background-image: url(../assets/images/horiseon.png);
     background-size: cover;
-    padding: 300px;
     text-align: center;
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
+}
+
+#main-project a{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 300;
 }
 #two{
     background-image:url(../assets/images/surf.jpg);
@@ -101,16 +116,17 @@ main{
     border: darkgreen;
     border-style: groove;
     background-color: sandybrown;
+    width: 100%;
 }
 
 .Contact-section{
-    background-color:springgreen;
+    background-color:rgb(70, 60, 211);
     
 }
 .Contact-section div{
     display: inline;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 150px;
     font-weight: bold;
 }
 
@@ -120,6 +136,7 @@ main{
     margin:0;
     background-color: orangered;
     margin-bottom: 0;
+    width: 100%;
 }
 .nav-button{
     padding:0px 75px;
@@ -131,12 +148,13 @@ main{
     background-size: cover;
     background-repeat: none;
     padding-bottom: 550px;
+    width: 100%;
 }
 
 #main-project{ padding: 30px;}
 
 footer{
-    border: solid 5px red;
+    border: solid 5px orange;
     padding: 10px;
 }
 
@@ -146,5 +164,37 @@ footer{
     margin: 100px;
     font-weight: bold;
 }
-
-#four{}
+#email-address{
+    margin-right: 200px;
+}
+@media screen and (max-width: 920px){
+    main{
+        height: 600px;
+    }
+@media screen and (max-width: 768px){
+    main{
+        height:700px
+    }
+@media screen and (max-width: 576px){
+    main{
+        height:900px
+    }
+@media screen and (max-width: 476px){
+    main{
+        height:900px
+    }
+    .navi{
+        font-size:25px ;
+    
+    }
+    .my-work-section{
+    width: 600px;
+    }
+    main{
+    width: 600px;
+    }
+    .hero{
+    width: 600px;
+    }
+        
+    
